@@ -21,32 +21,30 @@ In my home lab, I created a Windows VM victim with defense evasion techniques, i
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Disabled Microsoft Defender via Registry on the VM: <br/>
+<img src="https://i.imgur.com/ghtRP1H.png" height="80%" width="80%" alt="Windows Defender Disabled"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Installed Sysmon64 on Windows 11 VM: <br/>
+<img src="https://i.imgur.com/UlbN2iW.png" height="80%" width="80%" alt="Sysmon64 Installed"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Installed LimaCharlie EDR to detect threats on Windows 11 VM: <br/>
+<img src="https://i.imgur.com/piro1bV.png" height="80%" width="80%" alt="LimaCharlie EDR Installed"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Installed Sliver a Command & Control (C2) Framework on Kali Linux VM: <br/>
+<img src="https://i.imgur.com/mnhRFBV.png" height="80%" width="80%" alt="Sliver C2 Framework Installed"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Used a temporary python web server to dump the payload onto the Windows 11 VM: <br/>
+<img src="https://i.imgur.com/L7h6yHa.png" height="80%" width="80%" alt="Sliver C2 Python Web Server"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Started C2 session and gained access to Windows 11 VM, able to get basic info: <br/>
+<img src="https://i.imgur.com/EFai97T.png" height="80%" width="80%" alt="Sliver C2 Session"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
