@@ -1,7 +1,7 @@
 <h1>So You Want To Be A SOC Analyst Lab</h1>
 
 <h2>Description</h2>
-In my home lab, I created a Windows VM victim with defense evasion techniques, integrated LimaCharlie for threat detection, and simulated attacks with an Kali Linux VM using Sliver (C2 Framework). I performed memory dumps, monitored activity, and executed defensive actions, demonstrating practical cybersecurity skills in a controlled environment.
+In my home lab, I created a Windows VM victim with defense evasion techniques, integrated LimaCharlie for threat detection, and simulated attacks with an Kali Linux VM using Sliver (C2 Framework). I performed memory dumps, monitored activity, and executed defensive actions, demonstrating practical cybersecurity skills in a controlled environment. All credit goes to the original author Eric Capuano: https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro
 <br />
 
 
