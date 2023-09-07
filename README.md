@@ -45,6 +45,10 @@ Started C2 session and gained access to Windows 11 VM, able to get basic info: <
 <img src="https://i.imgur.com/EFai97T.png" height="80%" width="80%" alt="Sliver C2 Session"/>
 <br />
 <br />
+We now take a look at LimaCharlie and see real-time view of the EDR telemetry & event logs from the Win11 VM
+ <img src="https://i.imgur.com/a4ap216.png" height="80%" width="80%" alt="LimaCharlie Telemetry"/>
+<br />
+<br />
 </p>
 
 <!--
