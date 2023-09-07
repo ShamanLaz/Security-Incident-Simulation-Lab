@@ -49,6 +49,14 @@ We now take a look at LimaCharlie and see real-time view of the EDR telemetry & 
  <img src="https://i.imgur.com/a4ap216.png" height="80%" width="80%" alt="LimaCharlie Telemetry"/>
 <br />
 <br />
+Using Sliver C2 Framework dumped the lsass.exe from memory
+ <img src="https://i.imgur.com/GG5g6Ad.png" height="80%" width="80%" alt="Procdump LSASS.exe"/>
+<br />
+<br />
+Created a detection rule on LimaChalie to generate a report anytime the detection occurred
+ <img src="https://i.imgur.com/CVpfyzl.png" height="80%" width="80%" alt="Procdump LSASS.exe"/>
+<br />
+<br />
 </p>
 
 <!--
