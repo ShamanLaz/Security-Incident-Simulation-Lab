@@ -8,7 +8,7 @@ In my home lab, I created a Windows VM victim with defense evasion techniques, i
 <h2>Languages and Utilities Used</h2>
 
 - <b>Bash</b> 
-- <b>CMD</b>
+- <b>Command Prompt</b>
 - <b>VMware Workstation Pro 17</b>
 - <b>PowerShell</b>
 
